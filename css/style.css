@@ -1,0 +1,204 @@
+@font-face { font-family: 'Circe-Regular';  src: local('Circe-Regular'), url('../font/Circe-Regular.woff') format('woff'); }
+
+
+body, html{
+	margin: 0;
+	background-color: #000;
+	font-family: Circe-Regular;
+}
+
+input{
+	font-family: inherit;
+}
+
+textarea{
+	resize: none;
+}
+
+.container{
+	width: 80%;
+	min-height: 600px;
+	margin: 0 auto;
+	background-color: #fdd700;
+	border-radius: 20px;
+	padding: 20px;
+	font-family: inherit;
+}
+
+.zag{
+	width: 100%;
+	text-align: center;
+}
+
+.btn{
+	font-family: inherit;
+	transition: .5s;
+    border: 2px solid #1c1c1c;
+    border-radius: 25px;
+    height: 30px;
+    max-width: 320px;
+    background-color: #f4da48;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.btn:hover{
+	transition: .5s;
+	background-color: #fff;
+	color: #fdd700;
+}
+
+.sosi_block{
+	font-family: inherit;
+	transition: .5s;
+    display: block;
+    border: 2px solid #1c1c1c;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    max-width: 320px;
+    background-color: #f4da48;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.sosi_block:hover{
+	transition: .5s;
+	background-color: #fff;
+	color: #fdd700;
+}
+
+.button{
+	width: 100%;
+	display: inline-flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.egg{
+	display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.h1_egg{
+	width: 100%;
+    text-align: center;
+}
+
+.egg_body{
+	width: 100%;
+    text-align: center;
+    font-size: 42px;
+}
+
+/*Стили для карточки*/
+#shop{
+	font-family: inherit;
+	display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+	width: 80%;
+	margin: 30px auto;
+}
+
+.item{
+	font-family: inherit;
+	position: relative;
+	width: auto;
+	margin: 10px;
+	height: 200px;
+	background-color: #1c1c1c;
+	border-radius: 15px;
+}
+.content_item{
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_item{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.delete{
+	font-family: inherit;
+	width: 50%;
+	border-radius: 0 0 15px 0;
+    border: 1px solid #1c1c1c;
+    background-color: #fdd700; 
+    cursor: pointer;
+}
+.edit{
+	font-family: inherit;
+	width: 50%;
+    border-radius: 0 0 0 15px;
+    border: 1px solid #1c1c1c;
+    background-color: #fdd700;
+    cursor: pointer;
+}
+
+.edit:hover, .delete:hover{
+	transition: .5s;
+	background-color: #fff;
+	color: #fdd700;
+}
+
+.h3_item{
+	color: #fff;
+}
+
+.body_item{
+	width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.header_item_edit{
+	width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.header_item_create{
+	text-align: center;
+}
+
+/*Стили popup*/
+.popup{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cont_popup{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: #4c4c4cbf;
+    z-index: 100;
+}
+
+.popup_content{
+	display: flex;
+}
+.footer_popup{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
